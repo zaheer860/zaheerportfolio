@@ -134,7 +134,7 @@ const Hero = () => {
               alt={PERSONAL_INFO.name}
               className="w-full h-full object-cover"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = `https://api.dicebear.com/7.x/avataaars/svg?seed=Zaheer&backgroundColor=b6e3f4`;
+                (e.target as HTMLImageElement).src = `/Heroimg.jpeg`;
               }}
             />
           </div>
