@@ -130,11 +130,11 @@ const Hero = () => {
           <div className="absolute inset-0 bg-blue-500 rounded-[2rem] -rotate-3 opacity-10"></div>
           <div className="relative w-full h-full rounded-[2.5rem] overflow-hidden border-8 border-white shadow-2xl bg-slate-200">
             <img 
-              src="/Heroimg.jpeg" 
+              src="https://res.cloudinary.com/dlqkfejiw/image/upload/v1768405970/Heroimg_urb9da.jpg" 
               alt={PERSONAL_INFO.name}
               className="w-full h-full object-cover"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = `/Heroimg.jpeg`;
+                (e.target as HTMLImageElement).src = `https://res.cloudinary.com/dlqkfejiw/image/upload/v1768405970/Heroimg_urb9da.jpg`;
               }}
             />
           </div>
@@ -199,7 +199,7 @@ const About = () => {
   {/* image card */}
   <div className="relative aspect-square bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden">
     <img
-      src="/Heroimg.jpeg"   // replace with your image path
+      src="https://res.cloudinary.com/dlqkfejiw/image/upload/v1768405970/Heroimg_urb9da.jpg"   // replace with your image path
       alt="About Me"
       className="w-full h-full object-cover"
     />
